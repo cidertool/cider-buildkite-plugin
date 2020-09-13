@@ -8,7 +8,7 @@
 
 [![Release](https://img.shields.io/github/release/cidertool/cider-buildkite-plugin.svg)](https://github.com/cidertool/cider-buildkite-plugin/releases/latest)
 ![test](https://github.com/cidertool/cider-buildkite-plugin/workflows/test/badge.svg)
-[![codecov](https://codecov.io/gh/cidertool/cider-buildkite-plugin/branch/main/graph/badge.svg)](https://codecov.io/gh/cidertool/cider-buildkite-plugin)
+[![Github Releases Stats of cider-buildkite-plugin](https://img.shields.io/github/downloads/cidertool/cider-buildkite-plugin/total.svg?logo=github)](https://somsubhra.com/github-release-stats/?username=cidertool&repository=cider-buildkite-plugin)
 
 This plugin makes it easy to use [Cider](https://cidertool.github.io/cider) in your Buildkite pipelines.
 
