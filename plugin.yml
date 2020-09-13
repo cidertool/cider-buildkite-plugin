@@ -1,0 +1,23 @@
+name: Cider
+description: Run Cider to submit your apps to the Apple App Store
+author: https://github.com/cidertool
+requirements:
+  - bash
+  - docker
+configuration:
+  properties:
+    version:
+      type: string
+      default: latest
+    args:
+      anyOf:
+        - type: string
+        - type: array
+          items:
+            type: string
+          minItems: 1
+    workdir:
+      type: string
+      default: '.'
+  required:
+    - args

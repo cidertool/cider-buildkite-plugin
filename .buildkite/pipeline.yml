@@ -1,0 +1,17 @@
+steps:
+  - label: ':shell: Shellcheck'
+    plugins:
+      shellcheck#v1.1.2:
+        files: hooks/**
+        options:
+          - '-x'
+
+  - label: '✨ Lint'
+    plugins:
+      plugin-linter#v2.0.0:
+        id: cider
+
+  - label: ':docker: :hammer: Unit tests'
+    plugins:
+      docker-compose#v3.3.0:
+        run: tests
