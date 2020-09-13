@@ -9,7 +9,7 @@ steps:
   - label: '✨ Lint'
     plugins:
       plugin-linter#v2.0.0:
-        id: cider
+        id: cidertool/cider
 
   - label: ':docker: :hammer: Unit tests'
     plugins:
